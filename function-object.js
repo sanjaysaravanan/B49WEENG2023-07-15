@@ -82,9 +82,8 @@ function Vehicle(type, name, wheels, maxSpeed) {
 }
 
 // applyBreak, accelerate, horn, headlight
-
 Vehicle.prototype.applyBreak = function () {
-  console.log(this.name, 'is breaking');
+  console.log(this.name, 'Accesing the Rim, applying friction to the vehicle');
 }
 
 Vehicle.prototype.accelerate = function () {
@@ -94,3 +93,5 @@ Vehicle.prototype.accelerate = function () {
 const Lorry = new Vehicle('heavy', 'Swaraja Mastah', 6, '150kmph');
 
 console.log(Lorry);
+
+console.log(Lorry.applyBreak());
