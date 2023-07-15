@@ -1,0 +1,25 @@
+
+Topics:
+
+  Object.keys & Object.values
+
+  use of this keyword in functions
+
+  function keyword vs arrow functions:
+
+    function keyword: 
+      this can be used as a normal function
+      this also be used to create user-defined objects
+
+    arrow keyword:
+      this can only be used as a normal function
+      i.e, light weight function/method creation
+
+  Understanding the basics of prototype:
+    prototypes are a generic predefined properties which are inherited by the Objects getting instantiated/constructed using new keyword
+
+  Class: Blueprint or template for creating objects
+    construction
+
+Next Session:
+  use of this keyword in classes
